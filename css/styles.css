@@ -106,6 +106,7 @@ padding: 40px 0;
 }
 
 .header-logo-link {
+  flex-shrink: 0;
   display: flex;
 }
 
@@ -146,6 +147,7 @@ padding: 40px 0;
   text-transform: uppercase;
   text-decoration: none;
   color: var(--text-color);
+  white-space: nowrap;
 }
 
 .sitenav-link:hover {
