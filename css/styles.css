@@ -120,9 +120,6 @@ img {
 }
 
 .button-brown {
-}
-
-.button-brown {
   background-color: var(--accent-color-brown);
 }
 
@@ -216,9 +213,6 @@ padding: 40px 0;
 
 
 /* HERO */
-.hero {
-}
-
 .hero-container {
   display: flex;
   padding: 0;
@@ -528,10 +522,6 @@ padding: 40px 0;
   list-style: none;
 }
 
-.site-footer-socials-item {
-
-}
-
 .site-footer-socials-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -548,13 +538,6 @@ padding: 40px 0;
 .site-footer-socials-link:active {
   opacity: 0.6;
 }
-
-
-
-.site-footer-socials-img {
-}
-
-
 
 /* RETINA BG */
 @media
