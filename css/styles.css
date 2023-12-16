@@ -66,6 +66,7 @@ body {
   line-height: 28px;
   background-color: #fff;
   color: var(--text-color);
+  overflow-x: hidden;
 }
 
 img {
@@ -246,7 +247,21 @@ padding: 40px 0;
   margin-bottom: 34px;
 }
 
+.hero-img-wrapper{
+  position: relative;
+}
+
+.alfred {
+  position: absolute;
+  left: -80px;
+  top: 0;
+  transform: translateX(-50%);
+  transform: translateY(-50%);
+  object-fit: cover;
+}
+
 .hero-img {
+  display: block;
   width: 710px;
   height: 596px;
   margin-left: auto;
@@ -257,12 +272,40 @@ padding: 40px 0;
   height: 696px;
 }
 
-
 /* INDEX-COLLECTION */
 .index-collection-inner {
+  position: relative;
   padding: 50px 143px;
   background-color: var(--light-bg);
   background-image: url('../img/index-collection-bg.jpg');
+}
+
+.left-first-img {
+  position: absolute;
+  top: 0;
+  left: -250px;
+}
+
+.left-light-img {
+  width: 316px;
+  height: 270px;
+  position: absolute;
+  bottom: 170px;
+  left: -216px;
+}
+
+.right-fill-leaf {
+  position: absolute;
+  right: -210px;
+  bottom: 600px;
+  z-index: 1;
+}
+
+.right-second-leaf {
+  position: absolute;
+  right: -210px;
+  bottom: 600px;
+  z-index: 0;
 }
 
 .index-collection-heading {
